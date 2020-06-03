@@ -1,0 +1,220 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language:pt"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 8,
+        "name": "Validar comportamento ao inserir dado do produto",
+        "description": "",
+        "id": "pesquisar-item-na-lista;validar-comportamento-ao-inserir-dado-do-produto",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 8748447500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Que usuario acessa website",
+            "match": {
+              "location": "validar_pesquisa.Abrir_navegador()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 7956965900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Usuario pesquisa produto inserindo dado incorreto",
+            "match": {
+              "location": "validar_pesquisa.Inserir_dado_incorreto()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 717122600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Vejo mensagem de erro",
+            "match": {
+              "location": "validar_pesquisa.Valida_mensagem_de_erro()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "duration": 8469863700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Usuario pesquisa produto inserindo dado correto",
+            "match": {
+              "location": "validar_pesquisa.Usuario_pesquisa_produto()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 664666900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Vejo usuario acessar página do produto",
+            "match": {
+              "location": "validar_pesquisa.Acessa_página_do_produto()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Pesquisar item na lista",
+    "description": "Eu como usuário do site magazine luiza\r\nDesejo validar o comportamento do site ao pesquisar produto na lista",
+    "id": "pesquisar-item-na-lista",
+    "keyword": "Funcionalidade",
+    "uri": "pesquisar_item.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@run"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language:pt"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Validar mensagem de carrinho sem item",
+        "description": "",
+        "id": "validar-carrinho-de-compra;validar-mensagem-de-carrinho-sem-item",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 7525352000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Que o usuário acessa o website",
+            "match": {
+              "location": "validar_sacola_vazia.Abrir_navegador()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 853450200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Usuário seleciona sacola sem item",
+            "match": {
+              "location": "validar_sacola_vazia.Seleciona_sacola()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 5661734700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Vejo sacola vazia",
+            "match": {
+              "location": "validar_sacola_vazia.Sacola_sem_item()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Selecionar produto específico",
+        "description": "",
+        "id": "validar-carrinho-de-compra;selecionar-produto-específico",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 14848991600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Que usuário acessa lista do produto",
+            "match": {
+              "location": "validar_produto_na_sacola.Acesso_ao_produto()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 8483543800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Seleciona produto específico",
+            "match": {
+              "location": "validar_produto_na_sacola.Seleciona_produto_específico()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 5099625200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Usuário selecionar sacola",
+            "match": {
+              "location": "validar_produto_na_sacola.Seleciona_sacola()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3699577400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Vejo produto na sacola",
+            "match": {
+              "location": "validar_produto_na_sacola.Valida_produto_na_sacola()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Validar carrinho de compra",
+    "description": "Eu como usuário do site magazine luiza, desejo verificar comportamento quando seleciono carrinho de compra",
+    "id": "validar-carrinho-de-compra",
+    "keyword": "Funcionalidade",
+    "uri": "validar_sacola.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@run"
+      }
+    ]
+  }
+]

@@ -65,49 +65,50 @@ formatter.match({
   "location": "validar_pesquisa.Abrir_navegador()"
 });
 formatter.result({
-  "duration": 12341703200,
+  "duration": 12344753800,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_pesquisa.Inserir_nome_incorreto()"
 });
 formatter.result({
-  "duration": 6677957600,
+  "duration": 6900824200,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_pesquisa.Valida_mensagem_de_erro()"
 });
 formatter.result({
-  "duration": 860397800,
+  "duration": 987649600,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_pesquisa.Pesquisa_nome_produto()"
 });
 formatter.result({
-  "duration": 6216269700,
+  "duration": 3544688800,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_pesquisa.Acessa_página_do_produto()"
 });
 formatter.result({
-  "duration": 883956100,
-  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat StepDefinitions.validar_pesquisa.Acessa_página_do_produto(validar_pesquisa.java:98)\r\n\tat ✽.Então Vejo usuário acessar página do produto(pesquisar_item.feature:13)\r\n",
-  "status": "failed"
+  "duration": 5834982600,
+  "status": "passed"
 });
 formatter.match({
   "location": "validar_pesquisa.Pesquisa_código_produto()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3336540000,
+  "status": "passed"
 });
 formatter.match({
   "location": "validar_pesquisa.Novo_acesso_página_do_produto()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2743176800,
+  "status": "passed"
 });
 formatter.uri("validar_sacola.feature");
 formatter.feature({
@@ -156,21 +157,21 @@ formatter.match({
   "location": "validar_sacola_vazia.Abrir_navegador()"
 });
 formatter.result({
-  "duration": 7074899200,
+  "duration": 6904588600,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_sacola_vazia.Seleciona_sacola()"
 });
 formatter.result({
-  "duration": 2772154500,
+  "duration": 7738269100,
   "status": "passed"
 });
 formatter.match({
-  "location": "validar_sacola_vazia.Sacola_sem_item()"
+  "location": "validar_sacola_vazia.Valida_sacola_sem_item()"
 });
 formatter.result({
-  "duration": 5664511000,
+  "duration": 664368300,
   "status": "passed"
 });
 formatter.scenario({
@@ -205,28 +206,28 @@ formatter.match({
   "location": "validar_produto_na_sacola.Acesso_ao_produto()"
 });
 formatter.result({
-  "duration": 8991938300,
+  "duration": 8489810900,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_produto_na_sacola.Seleciona_produto_específico()"
 });
 formatter.result({
-  "duration": 228191000,
+  "duration": 551661800,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_produto_na_sacola.Seleciona_sacola()"
 });
 formatter.result({
-  "duration": 968835900,
+  "duration": 1104093200,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_produto_na_sacola.Valida_produto_na_sacola()"
 });
 formatter.result({
-  "duration": 6835717700,
+  "duration": 7061985600,
   "status": "passed"
 });
 });

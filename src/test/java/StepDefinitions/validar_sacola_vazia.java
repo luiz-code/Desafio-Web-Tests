@@ -37,12 +37,12 @@ public class validar_sacola_vazia
         produto =  driver.findElement(By.xpath("//a[@class='container-checkout']"));
         new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(produto));
         produto.click();
+        Thread.sleep(5000);
     }
     /* Página da sacola sem itens é exibida */
     @Então("^Vejo sacola vazia$")
-    public void Sacola_sem_item() throws Throwable
+    public void Valida_sacola_sem_item() throws Throwable
     {
-        Thread.sleep(5000);
         if(driver.getPageSource().contains("Sua sacola está vazia"))
         {
             driver.quit();

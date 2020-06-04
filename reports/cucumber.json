@@ -18,7 +18,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12341703200,
+              "duration": 12344753800,
               "status": "passed"
             },
             "line": 9,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 6677957600,
+              "duration": 6900824200,
               "status": "passed"
             },
             "line": 10,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 860397800,
+              "duration": 987649600,
               "status": "passed"
             },
             "line": 11,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 6216269700,
+              "duration": 3544688800,
               "status": "passed"
             },
             "line": 12,
@@ -66,9 +66,8 @@
           },
           {
             "result": {
-              "duration": 883956100,
-              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat StepDefinitions.validar_pesquisa.Acessa_página_do_produto(validar_pesquisa.java:98)\r\n\tat ✽.Então Vejo usuário acessar página do produto(pesquisar_item.feature:13)\r\n",
-              "status": "failed"
+              "duration": 5834982600,
+              "status": "passed"
             },
             "line": 13,
             "name": "Vejo usuário acessar página do produto",
@@ -79,7 +78,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 3336540000,
+              "status": "passed"
             },
             "line": 14,
             "name": "Usuário pesquisa produto inserindo código correto",
@@ -90,7 +90,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2743176800,
+              "status": "passed"
             },
             "line": 15,
             "name": "Vejo usuário acessar também a página do produto",
@@ -133,7 +134,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7074899200,
+              "duration": 6904588600,
               "status": "passed"
             },
             "line": 8,
@@ -145,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 2772154500,
+              "duration": 7738269100,
               "status": "passed"
             },
             "line": 9,
@@ -157,13 +158,13 @@
           },
           {
             "result": {
-              "duration": 5664511000,
+              "duration": 664368300,
               "status": "passed"
             },
             "line": 10,
             "name": "Vejo sacola vazia",
             "match": {
-              "location": "validar_sacola_vazia.Sacola_sem_item()"
+              "location": "validar_sacola_vazia.Valida_sacola_sem_item()"
             },
             "keyword": "Então "
           }
@@ -179,7 +180,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8991938300,
+              "duration": 8489810900,
               "status": "passed"
             },
             "line": 13,
@@ -191,7 +192,7 @@
           },
           {
             "result": {
-              "duration": 228191000,
+              "duration": 551661800,
               "status": "passed"
             },
             "line": 14,
@@ -203,7 +204,7 @@
           },
           {
             "result": {
-              "duration": 968835900,
+              "duration": 1104093200,
               "status": "passed"
             },
             "line": 15,
@@ -215,7 +216,7 @@
           },
           {
             "result": {
-              "duration": 6835717700,
+              "duration": 7061985600,
               "status": "passed"
             },
             "line": 16,

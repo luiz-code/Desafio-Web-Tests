@@ -36,7 +36,7 @@ public class validar_pesquisa
         driver.manage().window().maximize();
         Thread.sleep(5000);
     }
-    /* Condição para quando não existe produto na busca */
+    /* É realizada pesquisa com nome do produto não existente */
     @Quando("^Usuario pesquisa produto inserindo nome incorreto$")
     public void Inserir_nome_incorreto() throws Throwable
     {
@@ -67,7 +67,7 @@ public class validar_pesquisa
         }
 
     }
-    /* Condição para quando existe produto na busca */
+    /* É realizada pesquisa com nome existente */
     @Quando("^Usuário pesquisa produto inserindo nome completo$")
     public void Pesquisa_nome_produto() throws Throwable
     {
@@ -77,18 +77,16 @@ public class validar_pesquisa
         pesquisar_nome =  driver.findElement(By.id("btnHeaderSearch"));
         new WebDriverWait(driver, 5).until(ExpectedConditions.elementToBeClickable(pesquisar_nome));
         pesquisar_nome.click();
-        Thread.sleep(2000);
-        driver.navigate().back();
     }
 
     /* Página do produto é acessada */
     @Então("^Vejo usuário acessar página do produto$")
     public void Acessa_página_do_produto() throws Throwable
     {
+        Thread.sleep(5000);
         if(driver.getPageSource().contains("Notebook Dell Inspiron i15-3583-M5XP 8ª Geração Intel Core i7 8GB 2TB 15.6"))
         {
-            Thread.sleep(2000);
-            driver.quit();
+            driver.navigate().back();
             Assert.assertTrue(true);
         }
 
@@ -99,7 +97,7 @@ public class validar_pesquisa
         }
 
     }
-
+    /* É realizada pesquisa com código existente */
     @Quando("^Usuário pesquisa produto inserindo código correto$")
     public void Pesquisa_código_produto() throws Throwable
     {
@@ -110,10 +108,12 @@ public class validar_pesquisa
         new WebDriverWait(driver, 5).until(ExpectedConditions.elementToBeClickable(pesquisar_código));
         pesquisar_código.click();
     }
+
+    /* Página do produto é acessada */
     @Então("^Vejo usuário acessar também a página do produto$")
     public void Novo_acesso_página_do_produto() throws Throwable
     {
-        if(driver.getPageSource().contains("Notebook Dell Inspiron i15-3583-M5XP 8ª Geração Intel Core i7 8GB 2TB 15.6"))
+        if(driver.getPageSource().contains("had96dk051"))
         {
             Thread.sleep(2000);
             driver.quit();

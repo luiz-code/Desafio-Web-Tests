@@ -6,8 +6,10 @@ Funcionalidade: Pesquisar item na lista
   Desejo validar o comportamento do site ao pesquisar produto na lista
 
   Cenário: Validar comportamento ao inserir dado do produto
-    Dado    Que usuario acessa website
-    Quando  Usuario pesquisa produto inserindo dado incorreto
+    Dado    Que usuário acessa website
+    Quando  Usuario pesquisa produto inserindo nome incorreto
     Então   Vejo mensagem de erro
-    Quando  Usuario pesquisa produto inserindo dado correto
-    Então   Vejo usuario acessar página do produto
+    Quando  Usuário pesquisa produto inserindo nome completo
+    Então   Vejo usuário acessar página do produto
+    Quando  Usuário pesquisa produto inserindo código correto
+    Então   Vejo usuário acessar também a página do produto

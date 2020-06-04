@@ -28,12 +28,12 @@ formatter.scenario({
 });
 formatter.step({
   "line": 9,
-  "name": "Que usuario acessa website",
+  "name": "Que usuário acessa website",
   "keyword": "Dado "
 });
 formatter.step({
   "line": 10,
-  "name": "Usuario pesquisa produto inserindo dado incorreto",
+  "name": "Usuario pesquisa produto inserindo nome incorreto",
   "keyword": "Quando "
 });
 formatter.step({
@@ -43,48 +43,71 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "Usuario pesquisa produto inserindo dado correto",
+  "name": "Usuário pesquisa produto inserindo nome completo",
   "keyword": "Quando "
 });
 formatter.step({
   "line": 13,
-  "name": "Vejo usuario acessar página do produto",
+  "name": "Vejo usuário acessar página do produto",
+  "keyword": "Então "
+});
+formatter.step({
+  "line": 14,
+  "name": "Usuário pesquisa produto inserindo código correto",
+  "keyword": "Quando "
+});
+formatter.step({
+  "line": 15,
+  "name": "Vejo usuário acessar também a página do produto",
   "keyword": "Então "
 });
 formatter.match({
   "location": "validar_pesquisa.Abrir_navegador()"
 });
 formatter.result({
-  "duration": 8553226600,
+  "duration": 12341703200,
   "status": "passed"
 });
 formatter.match({
-  "location": "validar_pesquisa.Inserir_dado_incorreto()"
+  "location": "validar_pesquisa.Inserir_nome_incorreto()"
 });
 formatter.result({
-  "duration": 6254654300,
+  "duration": 6677957600,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_pesquisa.Valida_mensagem_de_erro()"
 });
 formatter.result({
-  "duration": 1032175500,
+  "duration": 860397800,
   "status": "passed"
 });
 formatter.match({
-  "location": "validar_pesquisa.Usuario_pesquisa_produto()"
+  "location": "validar_pesquisa.Pesquisa_nome_produto()"
 });
 formatter.result({
-  "duration": 8567827700,
+  "duration": 6216269700,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_pesquisa.Acessa_página_do_produto()"
 });
 formatter.result({
-  "duration": 682187000,
-  "status": "passed"
+  "duration": 883956100,
+  "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat StepDefinitions.validar_pesquisa.Acessa_página_do_produto(validar_pesquisa.java:98)\r\n\tat ✽.Então Vejo usuário acessar página do produto(pesquisar_item.feature:13)\r\n",
+  "status": "failed"
+});
+formatter.match({
+  "location": "validar_pesquisa.Pesquisa_código_produto()"
+});
+formatter.result({
+  "status": "skipped"
+});
+formatter.match({
+  "location": "validar_pesquisa.Novo_acesso_página_do_produto()"
+});
+formatter.result({
+  "status": "skipped"
 });
 formatter.uri("validar_sacola.feature");
 formatter.feature({
@@ -133,21 +156,21 @@ formatter.match({
   "location": "validar_sacola_vazia.Abrir_navegador()"
 });
 formatter.result({
-  "duration": 7741337200,
+  "duration": 7074899200,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_sacola_vazia.Seleciona_sacola()"
 });
 formatter.result({
-  "duration": 1157062600,
+  "duration": 2772154500,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_sacola_vazia.Sacola_sem_item()"
 });
 formatter.result({
-  "duration": 5659815200,
+  "duration": 5664511000,
   "status": "passed"
 });
 formatter.scenario({
@@ -182,28 +205,28 @@ formatter.match({
   "location": "validar_produto_na_sacola.Acesso_ao_produto()"
 });
 formatter.result({
-  "duration": 10262386800,
+  "duration": 8991938300,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_produto_na_sacola.Seleciona_produto_específico()"
 });
 formatter.result({
-  "duration": 8332084800,
+  "duration": 228191000,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_produto_na_sacola.Seleciona_sacola()"
 });
 formatter.result({
-  "duration": 5101567400,
+  "duration": 968835900,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_produto_na_sacola.Valida_produto_na_sacola()"
 });
 formatter.result({
-  "duration": 5127343000,
+  "duration": 6835717700,
   "status": "passed"
 });
 });

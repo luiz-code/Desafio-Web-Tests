@@ -18,11 +18,11 @@
         "steps": [
           {
             "result": {
-              "duration": 8553226600,
+              "duration": 12341703200,
               "status": "passed"
             },
             "line": 9,
-            "name": "Que usuario acessa website",
+            "name": "Que usuário acessa website",
             "match": {
               "location": "validar_pesquisa.Abrir_navegador()"
             },
@@ -30,19 +30,19 @@
           },
           {
             "result": {
-              "duration": 6254654300,
+              "duration": 6677957600,
               "status": "passed"
             },
             "line": 10,
-            "name": "Usuario pesquisa produto inserindo dado incorreto",
+            "name": "Usuario pesquisa produto inserindo nome incorreto",
             "match": {
-              "location": "validar_pesquisa.Inserir_dado_incorreto()"
+              "location": "validar_pesquisa.Inserir_nome_incorreto()"
             },
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 1032175500,
+              "duration": 860397800,
               "status": "passed"
             },
             "line": 11,
@@ -54,25 +54,48 @@
           },
           {
             "result": {
-              "duration": 8567827700,
+              "duration": 6216269700,
               "status": "passed"
             },
             "line": 12,
-            "name": "Usuario pesquisa produto inserindo dado correto",
+            "name": "Usuário pesquisa produto inserindo nome completo",
             "match": {
-              "location": "validar_pesquisa.Usuario_pesquisa_produto()"
+              "location": "validar_pesquisa.Pesquisa_nome_produto()"
             },
             "keyword": "Quando "
           },
           {
             "result": {
-              "duration": 682187000,
-              "status": "passed"
+              "duration": 883956100,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat StepDefinitions.validar_pesquisa.Acessa_página_do_produto(validar_pesquisa.java:98)\r\n\tat ✽.Então Vejo usuário acessar página do produto(pesquisar_item.feature:13)\r\n",
+              "status": "failed"
             },
             "line": 13,
-            "name": "Vejo usuario acessar página do produto",
+            "name": "Vejo usuário acessar página do produto",
             "match": {
               "location": "validar_pesquisa.Acessa_página_do_produto()"
+            },
+            "keyword": "Então "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Usuário pesquisa produto inserindo código correto",
+            "match": {
+              "location": "validar_pesquisa.Pesquisa_código_produto()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Vejo usuário acessar também a página do produto",
+            "match": {
+              "location": "validar_pesquisa.Novo_acesso_página_do_produto()"
             },
             "keyword": "Então "
           }
@@ -110,7 +133,7 @@
         "steps": [
           {
             "result": {
-              "duration": 7741337200,
+              "duration": 7074899200,
               "status": "passed"
             },
             "line": 8,
@@ -122,7 +145,7 @@
           },
           {
             "result": {
-              "duration": 1157062600,
+              "duration": 2772154500,
               "status": "passed"
             },
             "line": 9,
@@ -134,7 +157,7 @@
           },
           {
             "result": {
-              "duration": 5659815200,
+              "duration": 5664511000,
               "status": "passed"
             },
             "line": 10,
@@ -156,7 +179,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10262386800,
+              "duration": 8991938300,
               "status": "passed"
             },
             "line": 13,
@@ -168,7 +191,7 @@
           },
           {
             "result": {
-              "duration": 8332084800,
+              "duration": 228191000,
               "status": "passed"
             },
             "line": 14,
@@ -180,7 +203,7 @@
           },
           {
             "result": {
-              "duration": 5101567400,
+              "duration": 968835900,
               "status": "passed"
             },
             "line": 15,
@@ -192,7 +215,7 @@
           },
           {
             "result": {
-              "duration": 5127343000,
+              "duration": 6835717700,
               "status": "passed"
             },
             "line": 16,

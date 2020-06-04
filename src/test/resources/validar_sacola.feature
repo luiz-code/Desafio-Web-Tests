@@ -13,4 +13,4 @@ Funcionalidade: Validar sacola de compra
     Dado    Que usuário acessa lista do produto
     E       Seleciona produto específico
     Quando  Usuário selecionar sacola
-    Então   Vejo produto na saco
+    Então   Vejo produto na sacola

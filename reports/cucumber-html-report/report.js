@@ -55,35 +55,35 @@ formatter.match({
   "location": "validar_pesquisa.Abrir_navegador()"
 });
 formatter.result({
-  "duration": 8748447500,
+  "duration": 8553226600,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_pesquisa.Inserir_dado_incorreto()"
 });
 formatter.result({
-  "duration": 7956965900,
+  "duration": 6254654300,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_pesquisa.Valida_mensagem_de_erro()"
 });
 formatter.result({
-  "duration": 717122600,
+  "duration": 1032175500,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_pesquisa.Usuario_pesquisa_produto()"
 });
 formatter.result({
-  "duration": 8469863700,
+  "duration": 8567827700,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_pesquisa.Acessa_página_do_produto()"
 });
 formatter.result({
-  "duration": 664666900,
+  "duration": 682187000,
   "status": "passed"
 });
 formatter.uri("validar_sacola.feature");
@@ -95,9 +95,9 @@ formatter.feature({
     }
   ],
   "line": 4,
-  "name": "Validar carrinho de compra",
+  "name": "Validar sacola de compra",
   "description": "Eu como usuário do site magazine luiza, desejo verificar comportamento quando seleciono carrinho de compra",
-  "id": "validar-carrinho-de-compra",
+  "id": "validar-sacola-de-compra",
   "keyword": "Funcionalidade",
   "tags": [
     {
@@ -110,7 +110,7 @@ formatter.scenario({
   "line": 7,
   "name": "Validar mensagem de carrinho sem item",
   "description": "",
-  "id": "validar-carrinho-de-compra;validar-mensagem-de-carrinho-sem-item",
+  "id": "validar-sacola-de-compra;validar-mensagem-de-carrinho-sem-item",
   "type": "scenario",
   "keyword": "Cenário"
 });
@@ -133,28 +133,28 @@ formatter.match({
   "location": "validar_sacola_vazia.Abrir_navegador()"
 });
 formatter.result({
-  "duration": 7525352000,
+  "duration": 7741337200,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_sacola_vazia.Seleciona_sacola()"
 });
 formatter.result({
-  "duration": 853450200,
+  "duration": 1157062600,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_sacola_vazia.Sacola_sem_item()"
 });
 formatter.result({
-  "duration": 5661734700,
+  "duration": 5659815200,
   "status": "passed"
 });
 formatter.scenario({
   "line": 12,
   "name": "Selecionar produto específico",
   "description": "",
-  "id": "validar-carrinho-de-compra;selecionar-produto-específico",
+  "id": "validar-sacola-de-compra;selecionar-produto-específico",
   "type": "scenario",
   "keyword": "Cenário"
 });
@@ -182,28 +182,28 @@ formatter.match({
   "location": "validar_produto_na_sacola.Acesso_ao_produto()"
 });
 formatter.result({
-  "duration": 14848991600,
+  "duration": 10262386800,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_produto_na_sacola.Seleciona_produto_específico()"
 });
 formatter.result({
-  "duration": 8483543800,
+  "duration": 8332084800,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_produto_na_sacola.Seleciona_sacola()"
 });
 formatter.result({
-  "duration": 5099625200,
+  "duration": 5101567400,
   "status": "passed"
 });
 formatter.match({
   "location": "validar_produto_na_sacola.Valida_produto_na_sacola()"
 });
 formatter.result({
-  "duration": 3699577400,
+  "duration": 5127343000,
   "status": "passed"
 });
 });

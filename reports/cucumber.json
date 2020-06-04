@@ -18,7 +18,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8748447500,
+              "duration": 8553226600,
               "status": "passed"
             },
             "line": 9,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 7956965900,
+              "duration": 6254654300,
               "status": "passed"
             },
             "line": 10,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 717122600,
+              "duration": 1032175500,
               "status": "passed"
             },
             "line": 11,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 8469863700,
+              "duration": 8567827700,
               "status": "passed"
             },
             "line": 12,
@@ -66,7 +66,7 @@
           },
           {
             "result": {
-              "duration": 664666900,
+              "duration": 682187000,
               "status": "passed"
             },
             "line": 13,
@@ -104,13 +104,13 @@
         "line": 7,
         "name": "Validar mensagem de carrinho sem item",
         "description": "",
-        "id": "validar-carrinho-de-compra;validar-mensagem-de-carrinho-sem-item",
+        "id": "validar-sacola-de-compra;validar-mensagem-de-carrinho-sem-item",
         "type": "scenario",
         "keyword": "Cenário",
         "steps": [
           {
             "result": {
-              "duration": 7525352000,
+              "duration": 7741337200,
               "status": "passed"
             },
             "line": 8,
@@ -122,7 +122,7 @@
           },
           {
             "result": {
-              "duration": 853450200,
+              "duration": 1157062600,
               "status": "passed"
             },
             "line": 9,
@@ -134,7 +134,7 @@
           },
           {
             "result": {
-              "duration": 5661734700,
+              "duration": 5659815200,
               "status": "passed"
             },
             "line": 10,
@@ -150,13 +150,13 @@
         "line": 12,
         "name": "Selecionar produto específico",
         "description": "",
-        "id": "validar-carrinho-de-compra;selecionar-produto-específico",
+        "id": "validar-sacola-de-compra;selecionar-produto-específico",
         "type": "scenario",
         "keyword": "Cenário",
         "steps": [
           {
             "result": {
-              "duration": 14848991600,
+              "duration": 10262386800,
               "status": "passed"
             },
             "line": 13,
@@ -168,7 +168,7 @@
           },
           {
             "result": {
-              "duration": 8483543800,
+              "duration": 8332084800,
               "status": "passed"
             },
             "line": 14,
@@ -180,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 5099625200,
+              "duration": 5101567400,
               "status": "passed"
             },
             "line": 15,
@@ -192,7 +192,7 @@
           },
           {
             "result": {
-              "duration": 3699577400,
+              "duration": 5127343000,
               "status": "passed"
             },
             "line": 16,
@@ -205,9 +205,9 @@
         ]
       }
     ],
-    "name": "Validar carrinho de compra",
+    "name": "Validar sacola de compra",
     "description": "Eu como usuário do site magazine luiza, desejo verificar comportamento quando seleciono carrinho de compra",
-    "id": "validar-carrinho-de-compra",
+    "id": "validar-sacola-de-compra",
     "keyword": "Funcionalidade",
     "uri": "validar_sacola.feature",
     "tags": [

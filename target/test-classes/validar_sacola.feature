@@ -1,7 +1,7 @@
 #language:pt
 
 @run
-Funcionalidade: Validar carrinho de compra
+Funcionalidade: Validar sacola de compra
   Eu como usuário do site magazine luiza, desejo verificar comportamento quando seleciono carrinho de compra
 
   Cenário: Validar mensagem de carrinho sem item
